@@ -19,11 +19,11 @@ export function SideBar(){
             <div className="p-1"></div>
             <SideBarItem text="YouTube" icon={<YoutubeIcon/>} link={"https://www.youtube.com/"} />
             <div className="p-1"></div>
-            <SideBarItem text="Documents" icon={<DocumentIcon/>}/>
+            <SideBarItem text="Documents" icon={<DocumentIcon/>} link={"https://www.youtube.com/"} />
             <div className="p-1"></div>
-            <SideBarItem text="Links" icon={<LinkIcon/>}/>
+            <SideBarItem text="Links" icon={<LinkIcon/>} link={"https://www.youtube.com/"} />
             <div className="p-1"></div>
-            <SideBarItem text="Tags" icon={<TagIcon/>}/>
+            <SideBarItem text="Tags" icon={<TagIcon/>} link={"https://www.youtube.com/"} />
        </div> 
 
     </div>
