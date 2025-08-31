@@ -18,9 +18,9 @@ const tagSchema=new mongoose.Schema({
 })
 
 const contentSchema=new mongoose.Schema({
-    link:  {type:String, required:true },
-    type:  {type:String ,required:true},
-    title: {type:String, required:true},
+    link:  {type:String },
+    type:  {type:String },
+    title: {type:String },
     tags:  [{type:Types.ObjectId, ref:"Tag"}],
     userId:{type:Types.ObjectId, ref:'User', required:true}
 })
