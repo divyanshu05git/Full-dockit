@@ -2,8 +2,8 @@ import type { ReactElement } from "react"
 import { Link } from "react-router-dom";
 
 export function SideBarItem({text , icon , link}:{
-    text:string
-    icon:ReactElement
+    text?:string
+    icon?:ReactElement
     link:string
 }){
     return(
